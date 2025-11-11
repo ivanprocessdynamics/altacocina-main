@@ -4,17 +4,17 @@ import { ScrollAnimation } from "@/components/animations/ScrollAnimation";
 
 const menuData = {
   degustacion: [
-    { name: "Viaje por la Tierra", description: "Un recorrido en siete pasos por los sabores de nuestra tierra, desde las raíces del bosque hasta las cumbres de la montaña.", image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1981&auto=format&fit=crop", price: "120€" },
-    { name: "Sinfonía del Mar", description: "Una oda a la frescura del océano, con las capturas más selectas del día transformadas en delicadas creaciones.", image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=1965&auto=format&fit=crop", price: "145€" },
+    { name: "Viaje por la Tierra", description: "Un recorrido en siete pasos por los sabores de nuestra tierra, desde las raíces del bosque hasta las cumbres de la montaña.", image: "https://images.pexels.com/photos/18546556/pexels-photo-18546556.jpeg", price: "120€" },
+    { name: "Sinfonía del Mar", description: "Una oda a la frescura del océano, con las capturas más selectas del día transformadas en delicadas creaciones.", image: "https://images.pexels.com/photos/17070331/pexels-photo-17070331.jpeg", price: "145€" },
     { name: "Esencia de Temporada", description: "Menú que evoluciona con las estaciones, capturando los mejores productos del momento en seis pases creativos.", image: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1887&auto=format&fit=crop", price: "135€" },
   ],
   carta: [
-    { name: "Solomillo de Bellota", description: "Cocción a baja temperatura, emulsión de hierbas silvestres y tierra de setas.", image: "https://images.unsplash.com/photo-1598515214211-89d3c7373058?q=80&w=1887&auto=format&fit=crop", price: "45€" },
-    { name: "Lubina Salvaje", description: "Lomo curado en cítricos, sobre un lecho de algas yodadas y aire de mar.", image: "https://images.unsplash.com/photo-1622239899136-36d6a05320d9?q=80&w=1887&auto=format&fit=crop", price: "42€" },
-    { name: "Ravioli de Centollo", description: "Pasta fresca artesanal rellena de centollo del Cantábrico, con su propio coral y azafrán.", image: "https://images.unsplash.com/photo-1621996346565-e326e22e3924?q=80&w=1780&auto=format&fit=crop", price: "38€" },
-    { name: "Pichón de Bresse", description: "Asado en dos cocciones, con puré de castañas y jugo de sus carcasas al Oporto.", image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1887&auto=format&fit=crop", price: "55€" },
-    { name: "Bogavante Azul", description: "Asado suavemente, con emulsión de coral, hinojo marino y caviar oscietra.", image: "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?q=80&w=1887&auto=format&fit=crop", price: "68€" },
-    { name: "Foie Gras Mi-Cuit", description: "Escalope de foie con reducción de Pedro Ximénez, higos caramelizados y brioche tostado.", image: "https://images.unsplash.com/photo-1626200419199-391ae4be7a41?q=80&w=1887&auto=format&fit=crop", price: "48€" },
+    { name: "Solomillo de Bellota", description: "Cocción a baja temperatura, emulsión de hierbas silvestres y tierra de setas.", image: "https://images.pexels.com/photos/18546556/pexels-photo-18546556.jpeg", price: "45€" },
+    { name: "Lubina Salvaje", description: "Lomo curado en cítricos, sobre un lecho de algas yodadas y aire de mar.", image: "https://images.pexels.com/photos/17070331/pexels-photo-17070331.jpeg", price: "42€" },
+    { name: "Ravioli de Centollo", description: "Pasta fresca artesanal rellena de centollo del Cantábrico, con su propio coral y azafrán.", image: "https://images.pexels.com/photos/16526334/pexels-photo-16526334.jpeg", price: "38€" },
+    { name: "Pichón de Bresse", description: "Asado en dos cocciones, con puré de castañas y jugo de sus carcasas al Oporto.", image: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Roast_pigeon_(14071176646).jpg", price: "55€" },
+    { name: "Bogavante Azul", description: "Asado suavemente, con emulsión de coral, hinojo marino y caviar oscietra.", image: "https://images.pexels.com/photos/17062550/pexels-photo-17062550.jpeg", price: "68€" },
+    { name: "Foie Gras Mi-Cuit", description: "Escalope de foie con reducción de Pedro Ximénez, higos caramelizados y brioche tostado.", image: "https://images.pexels.com/photos/14905062/pexels-photo-14905062.jpeg", price: "48€" },
   ],
   postres: [
     { name: "Deconstructi de Limón", description: "Esfera de limón, merengue crujiente, sorbete de albahaca y aire de jengibre.", image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=1887&auto=format&fit=crop", price: "14€" },
