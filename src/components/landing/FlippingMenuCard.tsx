@@ -34,6 +34,7 @@ export const FlippingMenuCard = ({ image, name, description, price }: FlippingMe
         "www.carniceriademadrid.es",
         "media.istockphoto.com",
         "media.post.rvohealth.io",
+        "faustinorivero.com",
       ];
       if (heavyHosts.includes(u.hostname)) {
         const hostPath = `${u.hostname}${u.pathname}${u.search}`;
