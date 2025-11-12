@@ -21,7 +21,7 @@ const menuData = {
     { name: "Crème Brûlée de Vainilla", description: "Crema de vainilla con azúcar caramelizada crujiente.", image: "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/55f8199f-f3cf-4bf7-ac92-8cbdf77567ed/Derivates/3f03f121-2f48-48d7-9d50-e46ccb3aa018.jpg", price: "10€" },
   ],
   bebidas: [
-    { name: "Vino Tinto (Reserva)", description: "Selección de grandes reservas españolas.", image: "https://faustinorivero.com/wp-content/uploads/2023/04/tipos-de-vino-tinto.jpg", price: "6€/copa" },
+    { name: "Vino Tinto (Reserva)", description: "Selección de grandes reservas españolas.", image: "https://theluxuryshop.es/wp-content/uploads/2021/08/l-intro-1679598148.jpg", price: "6€/copa" },
     { name: "Cava Espumoso", description: "Cava brut nature de Cataluña.", image: "https://images.pexels.com/photos/29463857/pexels-photo-29463857.jpeg", price: "7€/copa" },
     { name: "Cóctel de la Casa", description: "Cóctel especial creado por nuestro mixólogo.", image: "https://coycoacademia.com/wp-content/uploads/2024/04/mojito.png", price: "12€" },
     { name: "Agua Mineral", description: "Agua mineral natural o con gas.", image: "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2025/01/water-bottle-splash-1296x728-header-1024x575.jpg", price: "3€" },
