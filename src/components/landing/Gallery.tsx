@@ -1,4 +1,5 @@
 import { ScrollAnimation } from "@/components/animations/ScrollAnimation";
+import { useEffect, useState } from "react";
 
 export const Gallery = () => {
   const images = [
@@ -19,17 +20,51 @@ export const Gallery = () => {
         {images.map((image, index) => (
           <ScrollAnimation key={index} delay={index * 0.1}>
             <div className="overflow-hidden rounded-lg shadow-md group">
-              <img 
-                src={image.src} 
-                alt={image.alt} 
-                className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${image.className}`}
-                loading="lazy"
-                decoding="async"
-              />
+              <GalleryImage src={image.src} alt={image.alt} className={image.className} />
             </div>
           </ScrollAnimation>
         ))}
       </div>
     </section>
+  );
+};
+
+const optimizeImageSrc = (url: string) => {
+  try {
+    const u = new URL(url);
+    const heavyHosts = ["images.pexels.com", "images.unsplash.com", "assets.tmecosys.com", "gastrolibreta.com", "vinosylicores.com", "exquisitoo.com", "coycoacademia.com"];
+    if (heavyHosts.includes(u.hostname)) {
+      const hostPath = `${u.hostname}${u.pathname}${u.search}`;
+      return `https://wsrv.nl/?url=${hostPath}&w=800&h=800&fit=cover&output=webp`;
+    }
+    return url;
+  } catch {
+    return url;
+  }
+};
+
+const FALLBACK_IMG = "https://placehold.co/800x800?text=Imagen";
+
+const GalleryImage = ({ src, alt, className }: { src: string; alt: string; className: string }) => {
+  const [currentSrc, setCurrentSrc] = useState<string>(FALLBACK_IMG);
+  const optimized = optimizeImageSrc(src);
+  useEffect(() => {
+    let cancelled = false;
+    const pre = new Image();
+    pre.referrerPolicy = "no-referrer";
+    pre.onload = () => { if (!cancelled) setCurrentSrc(optimized); };
+    pre.onerror = () => { if (!cancelled) setCurrentSrc(FALLBACK_IMG); };
+    pre.src = optimized;
+    return () => { cancelled = true; };
+  }, [optimized]);
+  return (
+    <img
+      src={currentSrc}
+      alt={alt}
+      className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${className}`}
+      loading="lazy"
+      decoding="async"
+      referrerPolicy="no-referrer"
+    />
   );
 };
