@@ -26,7 +26,13 @@ export const FlippingMenuCard = ({ image, name, description, price }: FlippingMe
         <div className="absolute w-full h-full [backface-visibility:hidden]">
           <Card className="w-full h-full border-0 overflow-hidden">
             <CardContent className="p-0 relative h-full flex flex-col justify-end items-center text-center">
-              <img src={image} alt={name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <img 
+                src={image} 
+                alt={name} 
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+                loading="lazy"
+                decoding="async"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
               <div className="relative p-6">
                 <h3 className="text-2xl font-serif font-bold text-white drop-shadow-lg">{name}</h3>
