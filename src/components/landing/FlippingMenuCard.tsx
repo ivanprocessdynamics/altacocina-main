@@ -30,6 +30,10 @@ export const FlippingMenuCard = ({ image, name, description, price }: FlippingMe
         "coycoacademia.com",
         "images.pexels.com",
         "images.unsplash.com",
+        "gourmandiseassia.fr",
+        "www.carniceriademadrid.es",
+        "media.istockphoto.com",
+        "media.post.rvohealth.io",
       ];
       if (heavyHosts.includes(u.hostname)) {
         const hostPath = `${u.hostname}${u.pathname}${u.search}`;
