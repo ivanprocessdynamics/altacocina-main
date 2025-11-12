@@ -6,25 +6,25 @@ const menuData = {
   entrantes: [
     { name: "Carpaccio de Atún Rojo", description: "Láminas finas de atún con aceite de trufa, rúcula y parmesano.", image: "https://images.pexels.com/photos/20807274/pexels-photo-20807274.jpeg?auto=compress&cs=tinysrgb&w=400", price: "22€" },
     { name: "Ceviche de Langostinos", description: "Langostinos frescos marinados en cítricos con aguacate y cilantro.", image: "https://images.pexels.com/photos/31495672/pexels-photo-31495672.jpeg?auto=compress&cs=tinysrgb&w=400", price: "24€" },
-    { name: "Foie Gras a la Plancha", description: "Escalope de foie con reducción de Pedro Ximénez y higos caramelizados.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Foie_gras_dish.jpg/400px-Foie_gras_dish.jpg", price: "28€" },
-    { name: "Ensalada de Queso de Cabra Caramelizado", description: "Mix de lechugas con queso de cabra caliente, nueces y vinagreta de miel.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Salade_chevre_chaud.jpg/400px-Salade_chevre_chaud.jpg", price: "18€" },
+    { name: "Foie Gras a la Plancha", description: "Escalope de foie con reducción de Pedro Ximénez y higos caramelizados.", image: "https://commememucho.com/wp-content/uploads/2025/01/7f606-liver-3928639_1280-1480177847-1574874271498.jpg?w=400&h=320", price: "28€" },
+    { name: "Ensalada de Queso de Cabra Caramelizado", description: "Mix de lechugas con queso de cabra caliente, nueces y vinagreta de miel.", image: "https://www.demoslavueltaaldia.com/sites/default/files/ensalada-de-queso-de-cabra-y-frutos-secos.jpg", price: "18€" },
   ],
   principales: [
     { name: "Solomillo de Ternera al Vino", description: "Solomillo en salsa de vino tinto con puré de patata trufado.", image: "https://images.pexels.com/photos/32738701/pexels-photo-32738701.jpeg?auto=compress&cs=tinysrgb&w=400", price: "42€" },
-    { name: "Cordero Glaseado con Miel", description: "Paletilla de cordero confitada con especias y miel, acompañada de verduras asadas.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Roast_lamb.jpg/400px-Roast_lamb.jpg", price: "38€" },
-    { name: "Risotto de Setas Trufado", description: "Arroz cremoso con setas de temporada y aceite de trufa negra.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mushroom_truffle_risotto.jpg/400px-Mushroom_truffle_risotto.jpg", price: "32€" },
-    { name: "Lubina al Horno", description: "Lubina entera al horno con hierbas mediterráneas y verduras.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Baked_sea_bass.jpg/400px-Baked_sea_bass.jpg", price: "36€" },
+    { name: "Cordero Glaseado con Miel", description: "Paletilla de cordero confitada con especias y miel, acompañada de verduras asadas.", image: "https://chefeel.com/chefgeneralfiles/2023/08/kebab-costillas-cordero-servido-pure-papa-1-880x729.jpg", price: "38€" },
+    { name: "Risotto de Setas Trufado", description: "Arroz cremoso con setas de temporada y aceite de trufa negra.", image: "https://fungo.es/wp-content/uploads/2017/09/1-1.jpg", price: "32€" },
+    { name: "Lubina al Horno", description: "Lubina entera al horno con hierbas mediterráneas y verduras.", image: "https://lasmariacocinillas.com/wp-content/uploads/2015/02/lubinaalhorno1-1.jpg", price: "36€" },
   ],
   postres: [
-    { name: "Coulant de Chocolate", description: "Bizcocho caliente con corazón de chocolate fundido y helado de vainilla.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Chocolate_fondant.jpg/300px-Chocolate_fondant.jpg", price: "12€" },
-    { name: "Tarta de Queso con Frutos Rojos", description: "Tarta de queso estilo Nueva York con coulis de frutos del bosque.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/New_York_cheesecake.jpg/300px-New_York_cheesecake.jpg", price: "11€" },
-    { name: "Crème Brûlée de Vainilla", description: "Crema de vainilla con azúcar caramelizada crujiente.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Creme_Brulee.jpg/300px-Creme_Brulee.jpg", price: "10€" },
+    { name: "Coulant de Chocolate", description: "Bizcocho caliente con corazón de chocolate fundido y helado de vainilla.", image: "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/f058cc67b3df69d9d639230500fb261e/Derivates/9cf0db7a63048d16087e4a1cb760752d4947bd3c.jpg", price: "12€" },
+    { name: "Tarta de Queso con Frutos Rojos", description: "Tarta de queso estilo Nueva York con coulis de frutos del bosque.", image: "https://gastrolibreta.com/wp-content/uploads/2020/11/dscf5741-2.jpg", price: "11€" },
+    { name: "Crème Brûlée de Vainilla", description: "Crema de vainilla con azúcar caramelizada crujiente.", image: "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/55f8199f-f3cf-4bf7-ac92-8cbdf77567ed/Derivates/3f03f121-2f48-48d7-9d50-e46ccb3aa018.jpg", price: "10€" },
   ],
   bebidas: [
-    { name: "Vino Tinto (Reserva)", description: "Selección de grandes reservas españolas.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Glass_of_red_wine.jpg/300px-Glass_of_red_wine.jpg", price: "6€/copa" },
-    { name: "Cava Espumoso", description: "Cava brut nature de Cataluña.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Champagne_in_glass.jpg/300px-Champagne_in_glass.jpg", price: "7€/copa" },
-    { name: "Cóctel de la Casa", description: "Cóctel especial creado por nuestro mixólogo.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Cocktail_glass.jpg/300px-Cocktail_glass.jpg", price: "12€" },
-    { name: "Agua Mineral", description: "Agua mineral natural o con gas.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Water_glass.jpg/300px-Water_glass.jpg", price: "3€" },
+    { name: "Vino Tinto (Reserva)", description: "Selección de grandes reservas españolas.", image: "https://exquisitoo.com/788-thickbox_default/6-anos-reserva-premium-valduero-ribera-del-duero.jpg", price: "6€/copa" },
+    { name: "Cava Espumoso", description: "Cava brut nature de Cataluña.", image: "https://vinosylicores.com/cdn/shop/files/VINO-ESPUMOSO-PATA-NEGRA-CAVA-BRUT-750.jpg?v=1751665400&width=400", price: "7€/copa" },
+    { name: "Cóctel de la Casa", description: "Cóctel especial creado por nuestro mixólogo.", image: "https://coycoacademia.com/wp-content/uploads/2024/04/mojito.png", price: "12€" },
+    { name: "Agua Mineral", description: "Agua mineral natural o con gas.", image: "https://images.unsplash.com/photo-1561041695-d2fadf9f318c?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=400", price: "3€" },
   ],
 };
 
